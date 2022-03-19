@@ -11130,6 +11130,14 @@ img {
 		-webkit-overflow-scrolling: touch;
 		-ms-overflow-style: scrollbar
 	}
+	.site-logo img{
+		padding-top: 16px;
+		max-width: 150px;
+		margin-left: 10px;
+	}
+	.start-screen__content__item .container{
+		margin-left: 0px;
+	}
 }
 
 @media screen and (max-width:767.98px) and (prefers-reduced-motion:reduce) {
@@ -11138,4 +11146,8 @@ img {
 		-o-transition: none;
 		transition: none
 	}
+}
+.slice-thrgh{
+	font-weight: 400;
+    text-decoration: line-through;
 }
